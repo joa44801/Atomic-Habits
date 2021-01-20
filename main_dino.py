@@ -48,5 +48,7 @@ def codex():
     code = mot_passe()
     if date == modif:
         return code
+    return "Hahaha! You didn't say the magic word!"
+
 
 print(codex())
